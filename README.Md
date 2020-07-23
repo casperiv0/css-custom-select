@@ -6,7 +6,7 @@ A custom select dropdown using HTML, CSS and JavaScript
 
 [GitHub Pages](https://dev-caspertheghost.github.io/css-custom-select)
 
-[Example with form](https://dev-caspertheghost.github.io/css-custom-select/example.html)
+[Example with form](https://dev-caspertheghost.github.io/css-custom-select/example/example.html)
 
 
 ### Screenshot:
