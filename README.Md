@@ -8,6 +8,10 @@ A custom select dropdown using HTML, CSS and JavaScript
 
 [Example with form](https://dev-caspertheghost.github.io/css-custom-select/example.html)
 
+
+### Screenshot:
+![screenshot](./custom-select.png)
+
 ## What I learned 
 
 - CSS positions
