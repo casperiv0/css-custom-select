@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="example/example.html" class="nav-link">View Example with form</a>
+      <a
+        href="https://github.com/dev-caspertheghost/css-custom-select"
+        class="nav-link"
+        >Source Code</a
+      >
+    </header>
+    <div class="container">
+      <div class="select-container">
+        <button type="button" class="select-btn">
+          <input
+            disabled
+            value="Select.."
+            class="select-btn-text"
+            id="select-value"
+          />
+          <img class="arrow" src="arrow.svg" alt="arrow" />
+        </button>
+        <div class="select-items">
+          <button type="button" class="select-item">A</button>
+          <button type="button" class="select-item">B</button>
+          <button type="button" class="select-item">C</button>
+          <button type="button" class="select-item">D</button>
+          <button type="button" class="select-item">E</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+.form {
+  width: 30%;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.form-input {
+  margin-top: 5px;
+  padding: 10px;
+  background-color: #2f3642;
+  color: white;
+  border: none;
+  font-size: 1rem;
+}
+
+.select-container {
+  width: 100%;
+}
+
+.submit-btn {
+  cursor: pointer;
+  margin-top: 5px;
+  padding: 10px;
+  background-color: #2f3642;
+  color: white;
+  border: none;
+  font-size: 1rem;
+}

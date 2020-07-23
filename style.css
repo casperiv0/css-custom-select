@@ -1,0 +1,127 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  height: calc(100vh - 60px);
+  width: 100vw;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.select-container {
+  position: relative;
+  width: 10rem;
+}
+
+.select-btn {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border: none;
+  background-color: #2f3642;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* disables user select for the input */
+.select-btn::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.select-btn input {
+  width: 100%;
+  height: 100%;
+  color: white;
+  padding: 10px;
+  background-color: #2f3642;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+button:focus,
+input:focus {
+  outline: 2px dotted #8f97a5;
+}
+
+.arrow {
+  margin: 10px;
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+.arrow.active {
+  transform: rotate(180deg);
+}
+
+.select-items {
+  display: none;
+  flex-direction: column;
+  margin-top: 5px;
+  position: absolute;
+  width: 100%;
+  height: 10rem;
+  background-color: #2f3642;
+  overflow-y: scroll;
+}
+
+.select-items.active {
+  display: flex;
+}
+
+.select-item {
+  padding: 10px;
+  background-color: #2f3642;
+  color: white;
+  border: 1px solid transparent;
+  margin-top: -1px;
+  cursor: pointer;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.select-item:hover {
+  background-color: #8f97a5;
+  color: #2f3642;
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  width: 100%;
+  height: 60px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #2f3642;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  transition: background 0.3s, color 0.3s;
+  padding: 10px;
+}
+
+.nav-link:hover {
+  background-color: white;
+  color: #2f3642;
+}
