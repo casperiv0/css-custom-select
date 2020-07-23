@@ -125,3 +125,9 @@ input:focus {
   background-color: white;
   color: #2f3642;
 }
+
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+  }
+}
