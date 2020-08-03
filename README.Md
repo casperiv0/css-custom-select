@@ -10,7 +10,7 @@ A custom select dropdown using HTML, CSS and JavaScript
 
 
 ### Screenshot:
-![screenshot](./custom-select.png)
+![screenshot](https://media.giphy.com/media/KDgYhJPp7qqsTpAI79/giphy.gif)
 
 ## What I learned 
 

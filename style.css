@@ -7,6 +7,7 @@
 }
 
 body {
+  font-family: sans-serif;
   background-color: white;
   height: calc(100vh - 60px);
   width: 100vw;
@@ -22,7 +23,7 @@ body {
 
 .select-container {
   position: relative;
-  width: 10rem;
+  width: 20rem;
 }
 
 .select-btn {
@@ -39,7 +40,7 @@ body {
 
 /* disables user select for the input */
 .select-btn::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
